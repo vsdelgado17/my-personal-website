@@ -78,3 +78,30 @@ i.fi:hover{
     padding: 2rem;
     border-radius: 16px;
 }
+
+@media(max-width: 640px){
+    h1{
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    i.fi {
+        font-size: 40px;
+        padding: 1rem;
+    }
+
+    i.fi:hover {
+        font-size: 50px;
+    }
+
+    .outer-box {
+        padding: 1rem;
+    }
+}
