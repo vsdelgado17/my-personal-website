@@ -3,29 +3,32 @@
         <meta charset="UTF-8">
         <title>Victoria's Personal Website</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="uicons-regular-rounded-3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css" rel="stylesheet">
         <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class = "wrapper">
             <div class="container text-center">
-                <h1>welcome</h1>
+                <h1 class="fade">welcome</h1>
                 <h2>Hello world, I'm Victoria Delgado.</h2>
-                <p>I'm a computer science student at Dominican University. I care about mental and overall health and the intersection with technology. Welcome to my personal website!</p>
+                <p id="description">I'm a computer science student at Dominican University. I care about mental and overall health and the intersection with technology. Welcome to my personal website!</p>
                 <div class="row">
                     <div class = "col">
-                        <img id = "aboutMeGif" src="gifs/icons8-about.gif">
+                        <i class="fi fi-rr-user bounce"></i>
                         <p>About Me</p>
                     </div>
                     <div class = "col">
-                        <img id = "projectsGif" src="gifs/icons8-folder.gif">
+                        <i class="fi fi-rr-folder-open bounce"></i>
                         <p>Projects</p>
                     </div>
                     <div class = "col">
-                        <img id = "contactMeGif" src="gifs/icons8-email.gif">
+                        <i class="fi fi-rr-envelope bounce"></i>
                         <p>Contact Me</p>
                     </div>
                 </div>
             </div>
         </div>
+        <script src="app.js"></script>
     </body>
 </html>
