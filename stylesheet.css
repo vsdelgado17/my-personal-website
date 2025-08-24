@@ -22,7 +22,7 @@ h2{
     white-space: nowrap;
     overflow: hidden;
     max-width: 34ch;
-    animation: type 1s steps(34) forwards;
+    animation: type 2s steps(34) forwards;
 }
 
 p{
