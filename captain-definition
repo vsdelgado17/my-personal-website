@@ -1,6 +1,7 @@
 {
   "schemaVersion": 2,
   "templateId": "static",
+  "templateVersion": "1.0.0",
   "staticWebRoot": "./",
   "dockerIgnoreFiles": [
     ".git"
